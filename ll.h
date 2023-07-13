@@ -12,6 +12,7 @@ class LL{
         void new_node(int, string);
 	    void print_all();
      ~LL();
+
 };
 
 LL :: LL(){

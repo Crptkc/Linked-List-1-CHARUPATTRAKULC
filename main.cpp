@@ -10,6 +10,7 @@ int main(int argc, char **argv){
     for(int i=0,j=0;i<(argc-1)/2;i++,j+=2){
       l.new_node(atoi(argv[j+1]),argv[j+2]);
     }
+
   
     l.print_all();
 }

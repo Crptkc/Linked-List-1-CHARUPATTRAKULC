@@ -9,6 +9,7 @@ private:
 	  string name; 
     node* next;
  public:
+
     node(int,string);
     void print();
     node* get_next(){return next;}
